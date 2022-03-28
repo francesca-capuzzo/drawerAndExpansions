@@ -1,0 +1,21 @@
+body{
+    height: 100%;
+}
+
+.header{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: black;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+

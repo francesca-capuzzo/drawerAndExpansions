@@ -1,0 +1,26 @@
+.container{
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 128, 0, 0);
+    border: none;
+}
+
+.clicked{
+    transform: rotate(180deg);
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
